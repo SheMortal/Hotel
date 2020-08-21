@@ -11,7 +11,7 @@ class Rooms extends Component {
             <>
             <Hero hero="roomsHero">
                 <Banner title="our rooms">
-                <Link to='/Transylvenia' className="btn-primary">
+                <Link to='/' className="btn-primary">
                 return home
                 </Link>
                 </Banner>

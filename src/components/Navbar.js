@@ -19,7 +19,7 @@ class Navbar extends Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
-            <Link to="/Transylvenia">
+            <Link to="/">
               <img className="logo" src={logo} alt="Transylvenia" />
             </Link>
             <button
@@ -33,7 +33,7 @@ class Navbar extends Component {
           <ul
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           ><li>
-              <Link to="/Transylvenia"><FaHome className="nav-icon" />Home</Link>
+              <Link to="/"><FaHome className="nav-icon" />Home</Link>
             </li>
             <li>
               <Link to="/rooms"><GiBed className="nav-icon" />Rooms</Link>
